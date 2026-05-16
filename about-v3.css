@@ -16207,7 +16207,7 @@ a.badge:hover {
 .comment-wrap .comment-item {
   position: relative;
 }
-.comment-wrap .comment-item .avatar {
+.comment-wrap .comment-item .aavatar {
   position: relative;
   z-index: 1;
 }
@@ -16489,27 +16489,27 @@ a.badge:hover {
   background-color: #d6293e;
 }
 
-.avatar.avatar-lg[class*=status-]:before {
+.aavatar.aavatar-lg[class*=status-]:before {
   right: 2px;
   top: 2px;
 }
 
-.avatar.avatar-xl[class*=status-]:before {
+.aavatar.aavatar-xl[class*=status-]:before {
   right: 4px;
   top: 4px;
 }
 
-.avatar.avatar-xxl[class*=status-]:before {
+.aavatar.aavatar-xxl[class*=status-]:before {
   right: 12px;
   top: 12px;
 }
 
-.avatar.avatar-xxxl[class*=status-]:before {
+.aavatar.aavatar-xxxl[class*=status-]:before {
   right: 18px;
   top: 18px;
 }
 
-.avatar {
+.aavatar {
   height: 3rem;
   width: 3rem;
   position: relative;
@@ -16518,45 +16518,45 @@ a.badge:hover {
       flex-shrink: 0 !important;
 }
 
-.avatar-img {
+.aavatar-img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.avatar-group {
+.aavatar-group {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.avatar-group > li {
+.aavatar-group > li {
   position: relative;
 }
-.avatar-group > li:not(:last-child) {
+.aavatar-group > li:not(:last-child) {
   margin-right: -0.8rem;
 }
-.avatar-group .avatar-img {
+.aavatar-group .aavatar-img {
   border: 2px solid #fff;
 }
 
-.avatar-group-two {
+.aavatar-group-two {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 0;
 }
-.avatar-group-two > li {
+.aavatar-group-two > li {
   margin-top: 0.8rem;
   position: relative;
 }
-.avatar-group-two > li:not(:last-child) {
+.aavatar-group-two > li:not(:last-child) {
   margin-right: -1.2rem;
   margin-top: 0;
 }
 
-.avatar-group-three {
+.aavatar-group-three {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -16564,13 +16564,13 @@ a.badge:hover {
   padding-right: 1.2rem;
   position: relative;
 }
-.avatar-group-three > li {
+.aavatar-group-three > li {
   position: relative;
 }
-.avatar-group-three > li:not(:last-child) {
+.aavatar-group-three > li:not(:last-child) {
   margin-right: -1.2rem;
 }
-.avatar-group-three > li:last-child {
+.aavatar-group-three > li:last-child {
   position: absolute;
   bottom: -30px;
   left: 50%;
@@ -16579,73 +16579,73 @@ a.badge:hover {
           transform: translate(-50%, 50%);
 }
 
-.avatar-group-four {
+.aavatar-group-four {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: auto auto;
   gap: 0px 0px;
 }
-.avatar-group-four li {
+.aavatar-group-four li {
   margin: 0;
 }
-.avatar-group-four li:not(:last-child) {
+.aavatar-group-four li:not(:last-child) {
   margin: 0;
 }
 
-.avatar-xxs {
+.aavatar-xxs {
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.avatar-xs {
+.aavatar-xs {
   height: 2.1875rem;
   width: 2.1875rem;
 }
 
-.avatar-sm {
+.aavatar-sm {
   height: 2.5rem;
   width: 2.5rem;
 }
 
-.avatar-lg {
+.aavatar-lg {
   height: 4rem;
   width: 4rem;
 }
 
-.avatar-xl {
+.aavatar-xl {
   height: 5.125rem;
   width: 5.125rem;
 }
 
-.avatar-xxl {
+.aavatar-xxl {
   height: 5.125rem;
   width: 5.125rem;
 }
 @media (min-width: 768px) {
-  .avatar-xxl {
+  .aavatar-xxl {
     width: 8rem;
     height: 8rem;
   }
 }
 
-.avatar-xxxl {
+.aavatar-xxxl {
   height: 8rem;
   width: 8rem;
 }
 @media (min-width: 768px) {
-  .avatar-xxxl {
+  .aavatar-xxxl {
     width: 11rem;
     height: 11rem;
   }
 }
 
-.avatar-story {
+.aavatar-story {
   position: relative;
   padding: 4px;
   z-index: 1;
 }
-.avatar-story:after {
+.aavatar-story:after {
   content: "";
   position: absolute;
   top: 0;
@@ -16657,19 +16657,19 @@ a.badge:hover {
   z-index: -1;
 }
 
-.avatar-uploader {
+.aavatar-uploader {
   position: relative;
 }
-.avatar-uploader .avatar-edit {
+.aavatar-uploader .aavatar-edit {
   position: absolute;
   right: 0;
   z-index: 1;
   top: 0;
 }
-.avatar-uploader .avatar-edit input {
+.aavatar-uploader .aavatar-edit input {
   display: none;
 }
-.avatar-uploader .avatar-edit input + label {
+.aavatar-uploader .aavatar-edit input + label {
   display: inline-block;
   width: 34px;
   height: 34px;
@@ -16684,7 +16684,7 @@ a.badge:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.avatar-uploader .avatar-edit input + label:after {
+.aavatar-uploader .aavatar-edit input + label:after {
   content: "\f303";
   font-family: "Font Awesome 6 Free";
   color: #14191e;
@@ -16700,14 +16700,14 @@ a.badge:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.avatar-uploader .avatar-edit input + label:hover {
+.aavatar-uploader .aavatar-edit input + label:hover {
   background: var(--bs-primary);
   border-color: var(--bs-primary);
 }
-.avatar-uploader .avatar-edit input + label:hover:after {
+.aavatar-uploader .aavatar-edit input + label:hover:after {
   color: #fff;
 }
-.avatar-uploader img#avatar-preview {
+.aavatar-uploader img#aavatar-preview {
   -o-object-fit: cover;
      object-fit: cover;
 }
